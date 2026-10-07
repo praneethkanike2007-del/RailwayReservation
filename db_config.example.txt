@@ -1,0 +1,4 @@
+127.0.0.1
+root
+YOUR_MYSQL_PASSWORD
+railway_reservation

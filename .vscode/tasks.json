@@ -1,0 +1,26 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Build Railway Reservation",
+            "type": "shell",
+            "command": "g++",
+            "args": [
+                "main.cpp",
+                "database.cpp",
+                "train.cpp",
+                "input.cpp",
+                "reservation.cpp",
+                "-o",
+                "railway",
+                "-IC:/msys64/ucrt64/include/mariadb",
+                "-lmariadb"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "problemMatcher": ["$gcc"]
+        }
+    ]
+}
